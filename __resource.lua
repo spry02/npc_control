@@ -1,15 +1,11 @@
-# npc_control
-fx-server
-
-## License
-
+--[[
     FiveM Scripts
-    Copyright (C) 2018  Sighmir
+    Copyright C 2018  Sighmir
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
     by the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+    at your option any later version.
 
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -18,3 +14,13 @@ fx-server
 
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+]]
+
+
+description "npc_control"
+
+client_scripts{ 
+  "lib/enum.lua",
+  "cfg/npcs.lua",
+  "client.lua"
+}
